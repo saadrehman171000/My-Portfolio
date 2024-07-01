@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Saad Rehman</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/saad.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body oncontextmenu="return false">
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      Loading
+    </div>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#testimonial">Testimonials</a>
+        <a href="#about-me">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-icons">
+        <div class="resume">
+          <a href="./assets/files/Saad Rehman_Full Stack Developer_Data Scientist.pdf" download target="_blank"
+            >CV <i class="fa fa-download"></i
+          ></a>
+        </div>
+        <div class="theme-icon">
+          <i
+            id="theme-mode"
+            class="fa-regular fa-sun"
+            onclick="themeMode()"
+          ></i>
+        </div>
+        <div class="mobile-menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <div class="float-sm">
+      <a href="https://www.linkedin.com/in/saadrehman17100/" target="_blank"
+        ><div class="fl-fl float-li">
+          <i class="sm-fa fa fa-brands fa-linkedin-in"></i>
+          saadrehman17100
+        </div></a
+      >
+      <a href="https://github.com/saadrehman171000" target="_blank"
+        ><div class="fl-fl float-gh">
+          <i class="sm-fa fa fa-brands fa-github"></i>
+          saadrehman171000
+        </div></a
+      >
+      <a href="https://twitter.com/saad_rehman76" target="_blank"
+        ><div class="fl-fl float-tw">
+          <i class="sm-fa fa fa-brands fa-x-twitter"></i>
+          saad_rehman76
+        </div></a
+      >
+      <a href="https://web.facebook.com/saadrehman17100" target="_blank"
+        ><div class="fl-fl float-gm">
+          <i class="sm-fa fa fa-brands fa-facebook"></i>
+          saadrehman17100
+        </div></a
+      ><a href="https://www.instagram.com/saad_rehman76/" target="_blank">
+        <div class="fl-fl float-ig">
+          <i class="sm-fa fa fa-brands fa-instagram"></i>
+          saad_rehman76
+        </div></a
+      >
+    </div>
+    <section id="home">
+      <img
+      src="https://miro.medium.com/v2/resize:fit:2000/format:webp/0*tAMU1FC-zpiB8HDG"
+      alt="Profile Image of Saad Rehman"
+      class="profile-image"
+  />
+  
+      <h2>Saad Rehman</h2>
+      <p id="typewriter"></p>
+    </section>
+
+
+    <h1 class="header" id="projects">
+      <span class="arrow">>></span> Top Projects
+    </h1>
+    <section class="articles">
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img
+              src="./assets/images/audio.png"
+              alt="AI-Audio-Processing-Platform"
+            />
+          </figure>
+          <div class="article-body">
+            <h2>
+              AudioGenius
+              <a
+                href="https://github.com/saadrehman171000/AI-Audio-Processing-Platform"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              AudioGenius is an AI-powered platform for musicians and audio engineers,
+              offering advanced audio separation and enhancement tools. It simplifies
+              audio production with a user-friendly interface and real-time collaboration.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img
+              src="./assets/images/fight.png"
+              alt="Fight Detection System"
+            />
+          </figure>
+          <div class="article-body">
+            <h2>
+              Fight Detection System
+              <a
+                href="https://github.com/saadrehman171000/Fight-Detection-System-using-TensorFlow-Object-Detection"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              Developed a sophisticated system to detect fights in real-time,
+              processing video feeds to identify violent altercations. This project highlights 
+              advanced skills in machine learning and real-time video analysis.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img
+              src="./assets/images/phones.png"
+              alt=""
+            />
+          </figure>
+          <div class="article-body">
+            <h2>
+              Online Store for Smartphones
+              <a
+                href="https://github.com/saadrehman171000/Online-Store-for-Smartphones"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              Developed a comprehensive online store for smartphones,
+              ensuring a dynamic and secure shopping experience. Demonstrated
+              expertise in creating efficient and user-friendly e-commerce platforms.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="https://cdn-images-1.medium.com/v2/resize:fit:1500/1*leuI7fVkeOrKAIGOOj_T9A.png" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>
+              Movie Recommendation System
+              <a
+                href="https://github.com/saadrehman171000/Machine-Learning-Projects--Movie-Recommendation---Age-Gender-Detection"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              Created a personalized movie recommendation system using 
+              advanced machine learning techniques. The project showcases 
+              proficiency in predictive modeling and delivering tailored user experiences.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./assets/images/leads.png" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>
+              US Leads Agency
+              <a
+                href="https://github.com/saadrehman171000/agency-app"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              US Leads Agency drives business growth with expertly curated,
+              precision-targeted lead generation solutions. Combining cutting-edge 
+              technology and strategies, it delivers unparalleled results for clients.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="https://www.code-brew.com/wp-content/uploads/2019/10/Header-Image.jpg" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>
+              Multi-Vendor
+              <a
+                href="https://github.com/saadrehman171000/MultiVendor-React-MYSQL-Web-App"
+                target="_blank"
+                class="read-more"
+              >
+                <i class="fa fa-external-link"></i>
+              </a>
+            </h2>
+            <p>
+              Created a multi-vendor website enabling seamless interactions, secure transactions, and efficient 
+              vendor management for an enhanced shopping experience.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <h1 class="header" id="skills">
+      <span class="arrow">>></span> Skills -Tools
+    </h1>
+    <section id="skills-sec">
+      <div class="skill">
+        <div
+          class="RadialProgress-5"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img
+            src="https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png"
+            width="50%"
+            height="50%"
+          />
+        </div>
+        <p>Django</p>
+      </div>
+      <div class="skill">
+        <div
+          class="RadialProgress-2"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img src="./assets/images/mern.png" width="50%" height="50%" />
+        </div>
+        <p>MERN Stack</p>
+      </div>
+      <div class="skill">
+        <div
+          class="RadialProgress-1"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img src="./assets/images/flutter.png" width="50%" height="50%" />
+        </div>
+        <p>Flutter</p>
+      </div>
+    </section>
+    <br />
+    <br />
+    <section id="skills-sec">
+      <div class="skill">
+        <div
+          class="RadialProgress-3"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img
+            src="https://seeklogo.com/images/N/net-logo-13E6F1F153-seeklogo.com.png"
+            width="40%"
+            height="40%"
+          />
+        </div>
+        <p>.NET FRAMEWORK</p>
+      </div>
+      <div class="skill">
+        <div
+          class="RadialProgress-4"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img src="https://www.digitality.es/img-articulos/ampliadas/que-es-nextjs-y-para-que-sirve-1-1697560678.jpg" width="45%" height="45%" />
+        </div>
+        <p>Next.js</p>
+      </div>
+      <div class="skill">
+        <div
+          class="RadialProgress-5"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg" width="50%" height="50%" />
+        </div>
+        <p>Machine Learning</p>
+      </div>
+    </section>
+    <h1 class="header" id="testimonial">
+      <span class="arrow">>></span> Testimonials
+    </h1>
+    <section id="comment-sec">
+      <div class="blockquote">
+        <p>
+          I'm proud to share the kind words and valuable feedback I've received
+          from clients, mentors and peers throughout my journey. Their insights
+          and appreciation have been instrumental in shaping my work, and I'm
+          grateful for the collaborative spirit that drives our success.
+        </p>
+      </div>
+      <div id="carouselExampleDark" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item-content">
+              <img src="./assets/images/Ammar.jpg" alt="" srcset="" />
+              <div class="comments">
+                <h1>Ammar Khawer</h1>
+                <p>
+                  Saad is the best programmer I have worked with. 
+                  His coding skills are exceptional, 
+                  and he consistently delivers high-quality work on time.
+                </p>
+                <br />
+                <p><em>Research Associate @ FAST-NUCES</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item-content">
+              <img src="./assets/images/Cristian.jpg" alt="" srcset="" />
+              <div class="comments">
+                <h1>Moruz Cristian</h1>
+                <p>
+                  Saad is a true professional. 
+                  His ability to deliver quality code under tight deadlines is impressive. 
+                  He's the best programmer I've worked with.
+                </p>
+                <br />
+                <p><em>Marketing Manager @ Suceava</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item-content">
+              <img src="./assets/images/ali.jpg" alt="" srcset="" />
+              <div class="comments">
+                <h1>Ali Shaikh</h1>
+                <p>
+                  Saad is an incredibly dedicated and hardworking software
+                  developer, consistently pouring their energy into mastering
+                  new technologies and delivering exceptional results.
+                </p>
+                <br />
+                <p><em>Peer @ FAST-NUCES</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item-content">
+              <img src="./assets/images/Hammad.jpg" alt="" srcset="" />
+              <div class="comments">
+                <h1>Hammad Ghuman</h1>
+                <p>
+                  Saad has a good command on the nextjs, mongoDB and MERN Stack
+                  development. He has the ability to understand all the
+                  instructions.
+                </p>
+                <br />
+                <p><em>Associate Software Engineer @ Tafsol Technology</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <h1 class="header" id="about-me"><span class="arrow">>></span> About Me</h1>
+    <section id="portfolio">
+      <div class="blockquote">
+        <p>
+          Excited about creating impactful user experiences and leveraging
+          cutting-edge technologies in the field. Open to collaboration and
+          continuously exploring new avenues in software development.
+        </p>
+      </div>
+      <marquee width="100%" direction="left" height="100px" scrollamount="8">
+        Ask me anything about <span class="sp"></span> &#8226; Django<span
+          class="sp"
+        ></span
+        >&#8226; MERN Stack <span class="sp"></span>&#8226; Flutter
+        <span class="sp"></span>&#8226; .NET FRAMEWORK
+        <span class="sp"></span> &#8226; SQL
+        <span class="sp"></span>&#8226; Python <span class="sp"></span>&#8226;
+        C++ <span class="sp"></span>&#8226; C# <span class="sp"></span>&#8226;
+        Machine Learning
+        <span class="sp"></span>&#8226; Next.js
+        <span class="sp"></span>&#8226; Java
+        <span class="sp"></span>&#8226; Artifical Intelligence
+      </marquee>
+    </section>
+
+    <h1 class="header" id="contact"><span class="arrow">>></span> Contact</h1>
+    <div class="container flex">
+      <div class="facebook-page flex">
+        <form action="#" onsubmit="emailSend(); return false;">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="tel" id="mobile" placeholder="Phone" required />
+          <textarea placeholder="Message" id="message" required></textarea>
+          <div class="link">
+            <button type="submit" class="login">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-hr"><hr /></div>
+    <footer class="footer">
+      <div class="copright">
+        <p class="copyright-text">
+          Copyright &copy; 2024 All Rights Reserved by
+          <span class="braindev">BrainDev</span>.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.all.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.querySelector(".lds-roller").style.display = "none";
+          document.querySelector("body").style.overflowY = "scroll";
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
